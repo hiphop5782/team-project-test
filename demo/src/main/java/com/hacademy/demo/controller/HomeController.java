@@ -20,4 +20,10 @@ public class HomeController {
 		return "Welcome!";
 	}
 	
+	@RequestMapping("/testuser")
+	@ResponseBody
+	public String testuser() {
+		return "Testuser";
+	}
+	
 }
